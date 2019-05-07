@@ -105,7 +105,7 @@ class App extends Component {
                     {/*style={styles.bg}*/}
                         <div>
                             <div className="jumbotron" style={styles.bg2}>
-                              <span className="head h1">Rent an Apartment</span>
+                            <span className="head h1"><FA name="bed"/>&nbsp;Spend the Night</span>
                             <div style={styles.cart}>
                                 <Cart
                                     selected={this.state.selectedRentals}

@@ -40,11 +40,13 @@ export default class Cart extends React.Component {
 
 
         return (
-            <div style={styles.card}>
-                <FA name="shopping-cart" className="fa fa-5x" style={styles.cart}/>
-                <p style={styles.overlay}>{this.props.selected.length}</p>
-                <div>
-                    <span className="h5">Total:</span>&nbsp;<span className="h5" style={styles.total}>${total.toFixed(2)}</span>
+            <div>
+                <div style={styles.card}>
+                    <FA name="shopping-cart" className="fa fa-5x" style={styles.cart}/>
+                    <p style={styles.overlay}>{this.props.selected.length}</p>
+                    <div>
+                        <span className="h5">Total:</span>&nbsp;<span className="h5" style={styles.total}>${total.toFixed(2)}</span>
+                    </div>
                 </div>
             </div>
         );

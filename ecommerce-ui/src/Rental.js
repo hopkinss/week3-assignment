@@ -112,8 +112,6 @@ class Rental extends Component {
                 </Card>
             </li>
         );
-
-
     }
 }
 

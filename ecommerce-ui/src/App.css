@@ -36,10 +36,8 @@ ul {
 }
 
 .head{
-  color: black;
+  color: dimgray;
   font-style: oblique;
-  font-weight: bold;
-  font-variant: all-small-caps;
   margin-left: 40%;
   font-size: 55px;
 }
