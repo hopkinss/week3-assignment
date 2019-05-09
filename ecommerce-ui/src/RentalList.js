@@ -31,9 +31,6 @@ class RentalList extends Component {
 
         } ;
 
-        // const selected={
-        //     visibility: this.state.isSelected ? 'visible' : 'hidden'
-        // };
 
         const selected = {visibility: 'hidden'};
 

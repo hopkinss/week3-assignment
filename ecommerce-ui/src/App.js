@@ -19,8 +19,8 @@ import RentalList from "./RentalList";
 import Background from './bg2.jpg';
 
 
-const FA = require('react-fontawesome');
 
+const FA = require('react-fontawesome');
 
 
 class App extends Component {
